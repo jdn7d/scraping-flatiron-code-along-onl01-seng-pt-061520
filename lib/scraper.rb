@@ -9,7 +9,7 @@ class Scraper
     co-curriculum.github.io/site-for-scraping/courses"))
   end
   binding.pry
-  
+
   def print_courses
     self.make_courses
     Course.all.each do |course|
@@ -20,8 +20,5 @@ class Scraper
       end
     end
   end
-  
+
 end
-
-
-
